@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tecnológica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+    <header>
+        <a href="#" id="back-to-top" title="Regresar al inicio">↑</a>
+        <div class="logo">
+            <img src="LOGO.jpg" alt="Logo de la tienda">
+        </div>
+        <h1>TDT</h1>
+        <h2>"Tu mejor aliado en la tecnologia"</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#product-list">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#cart"><i class="fas fa-shopping-cart"></i> Carrito (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/somosTDT"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/somostdt/?hl=es"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@somostdt"><img src="tik tok.png" alt="TikTok"></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B50377462324"><img src="whatsapp.png" alt="WhatsApp"></a>
+        </div>
+    </header>
+
+    <section id="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide"><img src="carusel-ima1.jpg" alt="Imagen 1"></div>
+            <div class="carousel-slide"><img src="carusel-ima2.jpg" alt="Imagen 2"></div>
+            <div class="carousel-slide"><img src="carusel-ima3.jpg" alt="Imagen 3"></div>
+            <div class="carousel-slide"><img src="carusel-ima4.jpg" alt="Imagen 4"></div>
+            <div class="carousel-slide"><video src="video.mp4" autoplay muted loop></video></div>
+        </div>
+    </section>
+    <a href="" id="back-to-top" title="Inicio">↑</a>
+
+    <h2>Productos</h2>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Buscar productos..." />
+    </div>
+    
+    <div class="product-list" id="product-list">
+        <div class="product" data-category="laptops">
+            <img src="lap1.png" alt="Laptop 1" />
+            <h3>Laptop HP</h3>
+            <p>Precio: $199</p>
+            <button class="add-to-cart" data-product="Laptop 1" data-price="199">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap2.png" alt="Laptop 2" />
+            <h3>Lenovo M173</h3>
+            <p>Precio: $199</p>
+            <button class="add-to-cart" data-product="Laptop 2" data-price="199">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap3.png" alt="Laptop 3" />
+            <h3>Laptop HP</h3>
+            <p>Precio: $599</p>
+            <button class="add-to-cart" data-product="Laptop 3" data-price="599">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap4.png" alt="Laptop 4" />
+            <h3>Laptop HP CELERON</h3>
+            <p>Precio: $499</p>
+            <button class="add-to-cart" data-product="Laptop 4" data-price="499">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap5.png" alt="Laptop 5" />
+            <h3>Computadora Completa</h3>
+            <p>Precio: $299</p>
+            <button class="add-to-cart" data-product="Laptop 5" data-price="299">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap6.png" alt="Laptop 6" />
+            <h3>Laptop HP Notebook</h3>
+            <p>Precio: $499</p>
+            <button class="add-to-cart" data-product="Laptop 6" data-price="499">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="laptops">
+            <img src="lap7.png" alt="Laptop 7" />
+            <h3>Laptop HP Notebook</h3>
+            <p>Precio: $199</p>
+            <button class="add-to-cart" data-product="Laptop 7" data-price="199">Añadir al carrito</button>
+        </div>
+
+        <div class="product" data-category="teclados">
+            <img src="teclado1.png" alt="Teclado 1" />
+            <h3>Teclado Mecánico</h3>
+            <p>Precio: $20</p>
+            <button class="add-to-cart" data-product="Teclado 1" data-price="20">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="teclados">
+            <img src="teclado2.png" alt="Teclado 2" />
+            <h3>Teclado Mecánico</h3>
+            <p>Precio: $25</p>
+            <button class="add-to-cart" data-product="Teclado 2" data-price="25">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="teclados">
+            <img src="teclado 3.png" alt="Teclado 3" />
+            <h3>Teclado Mecánico</h3>
+            <p>Precio: $30</p>
+            <button class="add-to-cart" data-product="Teclado 3" data-price="30">Añadir al carrito</button>
+        </div>
+
+        <div class="product" data-category="telefonos">
+            <img src="tel1.png" alt="Teléfono 1" />
+            <h3>Teléfono Xiaomi Poco</h3>
+            <p>Precio: $299</p>
+            <button class="add-to-cart" data-product="Teléfono" data-price="299">Añadir al carrito</button>
+        </div>
+
+        <div class="product" data-category="mouses">
+            <img src="maus1.png" alt="Mouse 1" />
+            <h3>Mouse Gamer</h3>
+            <p>Precio: $19</p>
+            <button class="add-to-cart" data-product="Mouse 1" data-price="19">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="mouses">
+            <img src="maus 2.png" alt="Mouse 2" />
+            <h3>Mouse Gamer</h3>
+            <p>Precio: $25</p>
+            <button class="add-to-cart" data-product="Mouse 2" data-price="25">Añadir al carrito</button>
+        </div>
+        <div class="product" data-category="mouses">
+            <img src="maus 4.png" alt="Mouse 3" />
+            <h3>Mouse Gamer</h3>
+            <p>Precio: $15</p>
+            <button class="add-to-cart" data-product="Mouse 3" data-price="15">Añadir al carrito</button>
+        </div>
+
+        <div class="product" data-category="audifonos">
+            <img src="audifonos.jpg" alt="Audífonos 1" />
+            <h3>Audífonos</h3>
+            <p>Precio: $15</p>
+            <button class="add-to-cart" data-product="Audífono 1" data-price="15">Añadir al carrito</button>
+        </div>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenido a nuestra tienda de tecnología. Somos un equipo apasionado por ofrecer los mejores productos tecnológicos del mercado. Nos esforzamos por brindar un servicio de alta calidad y una experiencia de compra inigualable. Nuestra misión es llevar la tecnología de punta a tus manos, proporcionando una amplia gama de productos que se adapten a todas tus necesidades.</p>
+        <p>Estamos comprometidos con la satisfacción del cliente y trabajamos constantemente para mejorar nuestros servicios y productos. Gracias por elegirnos como tu tienda de confianza para todas tus necesidades tecnológicas.</p>
+    </section>
+    <section id="hours">
+        <h2>Horarios de Atención</h2>
+        <p>Estamos aquí para servirte en los siguientes horarios:</p>
+        <ul>
+            <li><strong>Lunes a Viernes:</strong> 9:00 AM - 6:00 PM</li>
+            <li><strong>Sábado:</strong> 10:00 AM - 4:00 PM</li>
+            <li><strong>Domingo:</strong> Cerrado</li>
+        </ul>
+    </section>
+    
+    <footer>
+    <section id="cart">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items">
+            <p>No hay productos en el carrito.</p>
+        </div>
+        <button id="checkout">Realizar Compra</button>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Correo: gentetdt@gmail.com</p>
+        <p>Teléfono: 2413 2609</p>
+        <p>Ubicación:</p><a href="https://www.google.com/maps/place/Tienda+de+Tecnolog%C3%ADa+%7C+TDT+%E2%80%A2+Ahuachap%C3%A1n+El+Calvario/@13.9234417,-89.8499258,17z/data=!3m1!4b1!4m6!3m5!1s0x8f6297f9a67fd191:0x942d95f981670cbd!8m2!3d13.9234365!4d-89.8473509!16s%2Fg%2F11c53rxtlr?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"><img src="ubicacion.png" alt="Ubicacion"></a>
+    </section>
+        <p>&copy; 2024 TDT Tienda Tecnológica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
